@@ -57,3 +57,22 @@ Mohamed Ftaimiya & Evan Ursulet
 - Étape 1 (découverte/install manuelle) terminée ✅
 - Passer à l'étape 2 : import des données CSV via le menu "Outils" de Dolibarr, puis comparer avec un import direct en base (table llx_societe)
 - Commencer à documenter la structure de llx_societe dans docs/
+
+## Séance 4
+
+Mohamed Ftaimiya & Evan Ursulet
+
+**Ce qui a été fait :**
+- Test de la méthode 1 (import via l'assistant web de Dolibarr, menu Outils) : 8 tiers importés avec succès, mais le mapping des champs Client/Fournisseur ne s'est pas appliqué correctement (valeurs restées à 0 en base malgré le mapping)
+- Inspection de la structure réelle de la table llx_societe via SQL (DESCRIBE)
+- Écriture et test d'un script d'import direct en base (import_csv.sh), contournant l'interface Dolibarr
+- Test réussi : 4 tiers importés directement via le script, avec cette fois les valeurs Client/Fournisseur correctement enregistrées
+
+**Difficultés rencontrées :**
+- Mot de passe MySQL de l'utilisateur dolibarr oublié, récupéré via reset avec le compte root (authentification socket sur Debian)
+- Mapping Client/Fournisseur non fonctionnel via l'assistant d'import web, contournable via import SQL direct
+
+**Reste à faire :**
+- Comparer et documenter les deux méthodes dans docs/ (avantages/inconvénients)
+- Passer à l'étape 3 : dockerisation (Dolibarr + SGBD en conteneurs séparés) et scripts maîtres install.sh / import_csv.sh finaux
+
