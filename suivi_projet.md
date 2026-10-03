@@ -2,7 +2,7 @@
 
 ## Séance 1
 
-**Présents :** [ton nom]
+Mohamed Ftaimiya & Evan Ursulet
 
 **Ce qui a été fait :**
 - Création de la VM Debian sous VirtualBox (2 vCPU, 2 Go RAM, 20 Go disque)
@@ -22,7 +22,7 @@
 
 ## Séance 2
 
-**Présents :** [ton nom]
+Mohamed Ftaimiya & Evan Ursulet
 
 **Ce qui a été fait :**
 - Lancement de l'assistant d'installation Dolibarr (http://<ip_vm>/install/)
@@ -41,7 +41,7 @@
 
 ## Séance 3
 
-**Présents :** [ton nom]
+Mohamed Ftaimiya & Evan Ursulet
 
 **Ce qui a été fait :**
 - Finalisation de l'installation (création du compte superadmin)
