@@ -1,0 +1,5 @@
+Nom,Adresse,Code postal,Ville,Telephone,Email,Statut,Client,Fournisseur
+Vasseur Automobile,10 rue des Champs,76130,Mont-Saint-Aignan,0235441122,contact@vasseur-auto.fr,1,1,0
+Petit Imprimerie,2 rue Victor Hugo,76000,Rouen,0235225566,contact@petit-impression.fr,1,1,0
+Lemaitre Electricite SARL,9 rue du Four,76500,Elbeuf,0235778811,contact@lemaitre-elec.fr,1,0,1
+Caron Fournitures Bureau,33 avenue de Bretagne,76100,Rouen,0235339900,ventes@caron-fournitures.fr,1,0,1
