@@ -76,3 +76,14 @@ Mohamed Ftaimiya & Evan Ursulet
 - Comparer et documenter les deux méthodes dans docs/ (avantages/inconvénients)
 - Passer à l'étape 3 : dockerisation (Dolibarr + SGBD en conteneurs séparés) et scripts maîtres install.sh / import_csv.sh finaux
 
+## Séance 5 – 04/10/2026
+**Réalisé**
+- Dockerisation : Dolibarr + MariaDB (2 conteneurs), scripts install/import/backup/restore
+- Test complet du PRA (backup → down -v → install → restore) : 4 tiers retrouvés
+- Import CSV validé
+
+**Incident**
+- `.env` committé par erreur, retiré du dépôt, mots de passe changés
+
+**Reste à faire**
+- Finaliser la doc
