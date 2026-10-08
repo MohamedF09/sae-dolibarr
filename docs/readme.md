@@ -7,8 +7,8 @@ existantes (Tiers) et procédure de sauvegarde / reprise après incident (PRA).
 
 ## Équipe
 
-- Chef de projet : [nom]
-- Membre : Evan-972
+
+- Membre : Evan Ursuelet /Ftaimiya Mohamed
 
 ## Structure du dépôt
 
